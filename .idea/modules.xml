@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telegramwallet.iml" filepath="$PROJECT_DIR$/.idea/modules/telegramwallet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telegramwallet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/telegramwallet_main.iml" group="telegramwallet" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telegramwallet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/telegramwallet_test.iml" group="telegramwallet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alicewallet.iml" filepath="$PROJECT_DIR$/.idea/modules/alicewallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telegramwallet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/telegramwallet_main.iml" group="alicewallet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telegramwallet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/telegramwallet_test.iml" group="alicewallet" />
     </modules>
   </component>
 </project>
