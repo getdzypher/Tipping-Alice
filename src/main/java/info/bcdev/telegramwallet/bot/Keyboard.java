@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
