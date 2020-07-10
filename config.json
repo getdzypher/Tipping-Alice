@@ -1,0 +1,39 @@
+{"settings": {
+
+  "bot":
+  {
+    "username": "**NameBot**",
+    "token": "**TokenBot**",
+    "usersid":[0000000,1111111,2222222,.,.,.]
+  },
+  "proxy":
+  {
+    "active": false,
+    "address": "0.0.0.0",
+    "port": 0000,
+    "type": "socks5",
+    "proxyauth":{
+      "active":true,
+      "proxyuser":"Login",
+      "proxypas":"Password"
+    }
+  },
+  "wallet":
+  {
+    "dir":"ethereum/keystore/",
+    "password": ""
+  },
+  "node":
+  {
+    "url":"http://0.0.0.0",
+    "smartcontracterc20": {
+      "active": false,
+      "tokenaddress":"**Token Address**"
+    }
+  },
+  "etherscan":
+  {
+    "apikeytoken":"APIKEYFOR etherscan.io"
+  },
+  "qrcodedir":"qr/"
+} }
