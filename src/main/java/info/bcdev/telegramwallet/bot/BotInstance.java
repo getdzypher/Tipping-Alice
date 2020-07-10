@@ -1,6 +1,6 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
-import static info.bcdev.telegramwallet.bot.session.Session.BOT_INSTANCE;
+import static info.bcdev.alicewallet.bot.session.Session.BOT_INSTANCE;
 
 public interface BotInstance {
 
