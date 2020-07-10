@@ -1,11 +1,11 @@
-package info.bcdev.telegramwallet;
+package info.bcdev.alicewallet;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import info.bcdev.telegramwallet.bot.BotAccess;
-import info.bcdev.telegramwallet.bot.session.Session;
-import info.bcdev.telegramwallet.ethereum.WalletsInstance;
+import info.bcdev.alicewallet.bot.BotAccess;
+import info.bcdev.alicewallet.bot.session.Session;
+import info.bcdev.alicewallet.ethereum.WalletsInstance;
 import org.glassfish.jersey.jaxb.internal.SecureSaxParserFactory;
 
 import java.io.File;
