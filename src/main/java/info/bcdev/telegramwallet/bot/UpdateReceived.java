@@ -1,20 +1,20 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
-import info.bcdev.telegramwallet.bot.session.SendStep;
-import info.bcdev.telegramwallet.bot.session.Session;
-import info.bcdev.telegramwallet.bot.session.SessionPage;
-import info.bcdev.telegramwallet.ethereum.pages.*;
-import info.bcdev.telegramwallet.ethereum.Wallet;
-import info.bcdev.telegramwallet.ethereum.WalletList;
-import info.bcdev.telegramwallet.bot.session.SendType;
+import info.bcdev.alicewallet.bot.session.SendStep;
+import info.bcdev.alicewallet.bot.session.Session;
+import info.bcdev.alicewallet.bot.session.SessionPage;
+import info.bcdev.alicewallet.ethereum.pages.*;
+import info.bcdev.alicewallet.ethereum.Wallet;
+import info.bcdev.alicewallet.ethereum.WalletList;
+import info.bcdev.alicewallet.bot.session.SendType;
 import org.telegram.telegrambots.meta.api.objects.CallbackQuery;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
 import java.io.IOException;
 
-import static info.bcdev.telegramwallet.bot.session.Session.*;
-import static info.bcdev.telegramwallet.bot.session.SessionPage.*;
+import static info.bcdev.alicewallet.bot.session.Session.*;
+import static info.bcdev.alicewallet.bot.session.SessionPage.*;
 
 public class UpdateReceived {
 
