@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
