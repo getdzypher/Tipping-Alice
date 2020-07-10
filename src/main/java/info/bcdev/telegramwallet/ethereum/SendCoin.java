@@ -1,10 +1,10 @@
-package info.bcdev.telegramwallet.ethereum;
+package info.bcdev.alicewallet.ethereum;
 
 import info.bcdev.lib.web3j.Transactions.CTransaction;
-import info.bcdev.telegramwallet.Transactions;
-import info.bcdev.telegramwallet.Settings;
-import info.bcdev.telegramwallet.bot.session.Session;
-import info.bcdev.telegramwallet.erc20.TokenERC20;
+import info.bcdev.alicewallet.Transactions;
+import info.bcdev.alicewallet.Settings;
+import info.bcdev.alicewallet.bot.session.Session;
+import info.bcdev.alicewallet.erc20.TokenERC20;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.web3j.crypto.Credentials;
 import org.web3j.protocol.Web3j;
