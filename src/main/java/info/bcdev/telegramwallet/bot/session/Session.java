@@ -1,10 +1,10 @@
-package info.bcdev.telegramwallet.bot.session;
+package info.bcdev.alicewallet.bot.session;
 
-import info.bcdev.telegramwallet.Settings;
-import info.bcdev.telegramwallet.bot.BotAccess;
-import info.bcdev.telegramwallet.bot.Tbot;
-import info.bcdev.telegramwallet.bot.TransactionInstance;
-import info.bcdev.telegramwallet.ethereum.WalletsInstance;
+import info.bcdev.alicewallet.Settings;
+import info.bcdev.alicewallet.bot.BotAccess;
+import info.bcdev.alicewallet.bot.Tbot;
+import info.bcdev.alicewallet.bot.TransactionInstance;
+import info.bcdev.alicewallet.ethereum.WalletsInstance;
 
 import java.util.List;
 
