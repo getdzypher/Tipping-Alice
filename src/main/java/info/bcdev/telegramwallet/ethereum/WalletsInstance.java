@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.ethereum;
+package info.bcdev.alicewallet.ethereum;
 
 import org.web3j.crypto.Credentials;
 
