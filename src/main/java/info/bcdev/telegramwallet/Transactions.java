@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet;
+package info.bcdev.alicewallet;
 
 import io.reactivex.Flowable;
 import java.math.BigInteger;
