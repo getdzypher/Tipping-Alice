@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.qr;
+package info.bcdev.alicewallet.qr;
 
 import com.google.zxing.WriterException;
 import com.google.zxing.client.j2se.MatrixToImageWriter;
