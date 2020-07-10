@@ -1,7 +1,7 @@
-package info.bcdev.telegramwallet.ethereum;
+package info.bcdev.alicewallet.ethereum;
 
-import info.bcdev.telegramwallet.Settings;
-import info.bcdev.telegramwallet.Main;
+import info.bcdev.alicewallet.Settings;
+import info.bcdev.alicewallet.Main;
 import org.bitcoinj.crypto.ChildNumber;
 import org.bitcoinj.crypto.DeterministicKey;
 import org.bitcoinj.crypto.HDUtils;
