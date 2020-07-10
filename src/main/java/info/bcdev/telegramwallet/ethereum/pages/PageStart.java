@@ -1,8 +1,8 @@
-package info.bcdev.telegramwallet.ethereum.pages;
+package info.bcdev.alicewallet.ethereum.pages;
 
 import com.vdurmont.emoji.EmojiParser;
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.KeyBoards;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.KeyBoards;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
