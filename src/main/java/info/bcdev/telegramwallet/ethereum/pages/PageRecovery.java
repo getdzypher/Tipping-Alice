@@ -1,12 +1,12 @@
-package info.bcdev.telegramwallet.ethereum.pages;
+package info.bcdev.alicewallet.ethereum.pages;
 
 import com.vdurmont.emoji.EmojiParser;
-import info.bcdev.telegramwallet.Main;
-import info.bcdev.telegramwallet.Settings;
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.KeyBoards;
-import info.bcdev.telegramwallet.bot.session.Session;
-import info.bcdev.telegramwallet.ethereum.CreateEW;
+import info.bcdev.alicewallet.Main;
+import info.bcdev.alicewallet.Settings;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.KeyBoards;
+import info.bcdev.alicewallet.bot.session.Session;
+import info.bcdev.alicewallet.ethereum.CreateEW;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static info.bcdev.telegramwallet.bot.session.Session.SETTINGS;
+import static info.bcdev.alicewallet.bot.session.Session.SETTINGS;
 
 public class PageRecovery implements KeyBoards, BotInstance {
 
