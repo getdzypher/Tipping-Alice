@@ -18,7 +18,7 @@ configurations {
 
 jar {
     manifest {
-        attributes "Main-Class": "info.bcdev.telegramwallet.Main"
+        attributes "Main-Class": "info.bcdev.alicewallet.Main"
     }
 
     doFirst {
