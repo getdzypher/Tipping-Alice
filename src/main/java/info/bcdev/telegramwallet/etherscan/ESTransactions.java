@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.etherscan;
+package info.bcdev.alicewallet.etherscan;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
