@@ -1,6 +1,6 @@
-# Tipping Tom (Ethereum Telegram Tipping Wallet)
+# Tipping Alice (Ethereum Telegram Tipping Wallet)
 
-Tipping Tom uses the library [Web3j](https://github.com/web3j/web3j)
+Tipping Alice uses the library [Web3j](https://github.com/web3j/web3j)
 
 Features Telegram Wallet:
 + Wallet Generate/Delete
