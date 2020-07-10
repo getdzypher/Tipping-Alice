@@ -1,7 +1,7 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
-import info.bcdev.telegramwallet.ethereum.WalletsInstance;
-import info.bcdev.telegramwallet.qr.QRCode;
+import info.bcdev.alicewallet.ethereum.WalletsInstance;
+import info.bcdev.alicewallet.qr.QRCode;
 import org.web3j.crypto.CipherException;
 import org.web3j.crypto.Credentials;
 import org.web3j.crypto.WalletUtils;
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static info.bcdev.telegramwallet.bot.session.Session.SETTINGS;
+import static info.bcdev.alicewallet.bot.session.Session.SETTINGS;
 
 public class LoadWalletList {
 
