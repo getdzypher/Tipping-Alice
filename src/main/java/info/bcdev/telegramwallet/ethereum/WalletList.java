@@ -1,9 +1,9 @@
-package info.bcdev.telegramwallet.ethereum;
+package info.bcdev.alicewallet.ethereum;
 
 import com.vdurmont.emoji.EmojiParser;
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.KeyBoards;
-import info.bcdev.telegramwallet.bot.LoadWalletList;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.KeyBoards;
+import info.bcdev.alicewallet.bot.LoadWalletList;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -13,7 +13,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import static info.bcdev.telegramwallet.bot.session.Session.*;
+import static info.bcdev.alicewallet.bot.session.Session.*;
 
 public class WalletList implements KeyBoards, BotInstance {
 
