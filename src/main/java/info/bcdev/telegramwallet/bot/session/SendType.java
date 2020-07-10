@@ -1,4 +1,4 @@
-package info.bcdev.telegramwallet.bot.session;
+package info.bcdev.alicewallet.bot.session;
 
 public enum SendType {
 
