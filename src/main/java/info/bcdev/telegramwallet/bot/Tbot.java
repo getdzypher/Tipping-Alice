@@ -1,11 +1,11 @@
-package info.bcdev.telegramwallet.bot;
+package info.bcdev.alicewallet.bot;
 
-import info.bcdev.telegramwallet.bot.session.Session;
+import info.bcdev.alicewallet.bot.session.Session;
 import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
-import static info.bcdev.telegramwallet.bot.session.Session.SETTINGS;
+import static info.bcdev.alicewallet.bot.session.Session.SETTINGS;
 
 public class Tbot extends TelegramLongPollingBot {
 
