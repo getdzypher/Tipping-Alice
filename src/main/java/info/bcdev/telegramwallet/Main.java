@@ -1,8 +1,8 @@
-package info.bcdev.telegramwallet;
+package info.bcdev.alicewallet;
 
 import com.google.gson.JsonSyntaxException;
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.Tbot;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.Tbot;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.meta.ApiContext;
@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 
-import static info.bcdev.telegramwallet.bot.session.Session.BOT_INSTANCE;
-import static info.bcdev.telegramwallet.bot.session.Session.SETTINGS;
+import static info.bcdev.alicewallet.bot.session.Session.BOT_INSTANCE;
+import static info.bcdev.alicewallet.bot.session.Session.SETTINGS;
 
 public class Main implements BotInstance {
 
