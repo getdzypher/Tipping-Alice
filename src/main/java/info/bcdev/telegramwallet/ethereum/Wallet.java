@@ -1,15 +1,15 @@
-package info.bcdev.telegramwallet.ethereum;
+package info.bcdev.alicewallet.ethereum;
 
 import com.vdurmont.emoji.EmojiParser;
 import info.bcdev.lib.web3j.Balance;
-import info.bcdev.telegramwallet.bot.session.SendStep;
-import info.bcdev.telegramwallet.bot.session.Session;
-import info.bcdev.telegramwallet.Settings;
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.KeyBoards;
-import info.bcdev.telegramwallet.erc20.TokenERC20;
-import info.bcdev.telegramwallet.ethereum.pages.PageTransactionList;
-import info.bcdev.telegramwallet.bot.session.SendType;
+import info.bcdev.alicewallet.bot.session.SendStep;
+import info.bcdev.alicewallet.bot.session.Session;
+import info.bcdev.alicewallet.Settings;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.KeyBoards;
+import info.bcdev.alicewallet.erc20.TokenERC20;
+import info.bcdev.alicewallet.ethereum.pages.PageTransactionList;
+import info.bcdev.alicewallet.bot.session.SendType;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -32,9 +32,9 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
 
-import static info.bcdev.telegramwallet.Settings.GAS_LIMIT_VALUE;
-import static info.bcdev.telegramwallet.bot.session.SendStep.*;
-import static info.bcdev.telegramwallet.bot.session.Session.*;
+import static info.bcdev.alicewallet.Settings.GAS_LIMIT_VALUE;
+import static info.bcdev.alicewallet.bot.session.SendStep.*;
+import static info.bcdev.alicewallet.bot.session.Session.*;
 
 public class Wallet implements KeyBoards, BotInstance {
     private SendMessage sendMessage = new SendMessage();
