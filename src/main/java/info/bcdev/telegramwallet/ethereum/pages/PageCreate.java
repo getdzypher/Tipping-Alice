@@ -1,7 +1,7 @@
-package info.bcdev.telegramwallet.ethereum.pages;
+package info.bcdev.alicewallet.ethereum.pages;
 
-import info.bcdev.telegramwallet.bot.BotInstance;
-import info.bcdev.telegramwallet.bot.session.Session;
+import info.bcdev.alicewallet.bot.BotInstance;
+import info.bcdev.alicewallet.bot.session.Session;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
